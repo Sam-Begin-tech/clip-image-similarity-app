@@ -20,6 +20,52 @@ A Streamlit app that allows users to upload an image and find visually similar i
 git clone https://github.com/your-username/clip-image-similarity-app.git
 cd clip-image-similarity-app
 ```
+2. Install dependencies
+Use pip and ensure you have Python 3.8+.
 
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Recommended: Create a virtual environment before installing.
+
+3. Add your image dataset
+Place your reference images inside the folder:
+
+swift
+Copy
+Edit
+static/image_dataset/
+Supported formats: .jpg, .jpeg, .png, .webp
+
+4. Run the app
+bash
+Copy
+Edit
+streamlit run app.py
+The app will open in your default browser.
+
+🧠 Model Used
+OpenCLIP: ViT-B-32 (pretrained on laion2b_s34b_b79k)
+
+Similarity Metric: Cosine similarity
+
+📁 Folder Structure
+static/uploads/: Temporary upload directory
+
+static/image_dataset/: Your dataset of images to compare against
+
+utils/vision_utils.py: Handles embedding and similarity logic
+
+app.py: Streamlit frontend and logic
+
+🔒 Note
+Make sure the dataset folder contains valid images. Unsupported files will be skipped.
+
+📃 License
+MIT License — feel free to use, modify, and share!
+
+🤝 Contributions
+Pull requests are welcome. For major changes, please open an issue first.
 
 
