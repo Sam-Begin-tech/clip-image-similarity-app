@@ -17,7 +17,7 @@ A Streamlit app that allows users to upload an image and find visually similar i
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/clip-image-similarity-app.git
+git clone https://github.com/Sam-Begin-tech/clip-image-similarity-app.git
 cd clip-image-similarity-app
 ```
 2. Install dependencies
@@ -62,10 +62,5 @@ app.py: Streamlit frontend and logic
 🔒 Note
 Make sure the dataset folder contains valid images. Unsupported files will be skipped.
 
-📃 License
-MIT License — feel free to use, modify, and share!
-
-🤝 Contributions
-Pull requests are welcome. For major changes, please open an issue first.
 
 
