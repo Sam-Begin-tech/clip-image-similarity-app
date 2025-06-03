@@ -15,6 +15,7 @@ dataset_embeddings, image_paths = load_dataset_embeddings(DATASET_FOLDER)
 
 # App title
 st.title("🔍 Find Visually Similar Images")
+st.markdown("#### A few example categories are available: Bags, Stationery, Dogs, Groceries, Cosmetics, and Electronics. Please test only with these.")
 
 # File uploader
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png", "webp"])
