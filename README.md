@@ -4,6 +4,9 @@ A Streamlit app that allows users to upload an image and find visually similar i
 
 ![Demo](https://github.com/your-username/clip-image-similarity-app/assets/demo.gif)
 
+[Click here to view demo](https://clip-ai-image-search.streamlit.app/)
+
+
 ## 🚀 Features
 
 - Embed dataset images using OpenCLIP
